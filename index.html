@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Madras Tiffin House | South Indian Restaurant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Madras<span>Tiffin</span></div>
+
+    <ul class="nav-links" id="navLinks">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#menu">Menu</a></li>
+      <li><a href="#specials">Specials</a></li>
+      <li><a href="#gallery">Gallery</a></li>
+      <li><a href="#reviews">Reviews</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+
+    <div class="hamburger" id="hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </header>
+
+  <!-- HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+      <h1>Authentic South Indian Taste</h1>
+      <p>Fresh Dosa, Idli, Sambhar & Filter Coffee in your city.</p>
+
+      <div class="hero-buttons">
+        <a href="#menu" class="btn">View Menu</a>
+        <a href="https://wa.me/919999999999?text=Hello%20Madras%20Tiffin%20House,%20I%20want%20to%20order%20food!"
+          class="btn btn-outline" target="_blank">Order on WhatsApp</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT SECTION -->
+  <section class="section about" id="about">
+    <div class="container">
+      <div class="about-grid">
+        <div class="about-text">
+          <h2>About Our Restaurant</h2>
+          <p>
+            Welcome to <b>Madras Tiffin House</b> — your favorite place for
+            authentic South Indian breakfast & meals. We serve fresh dosa,
+            fluffy idli, spicy chutneys, and sambhar made with traditional
+            recipes.
+          </p>
+
+          <p>
+            Our mission is simple: <b>pure taste, clean food, fast service</b>.
+            Whether you dine in or order online, we deliver the same quality.
+          </p>
+
+          <div class="about-highlights">
+            <div class="highlight-box">
+              <h3>100%</h3>
+              <p>Fresh Ingredients</p>
+            </div>
+
+            <div class="highlight-box">
+              <h3>20+</h3>
+              <p>Menu Items</p>
+            </div>
+
+            <div class="highlight-box">
+              <h3>5⭐</h3>
+              <p>Customer Rating</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="about-image">
+          <img src="https://images.unsplash.com/photo-1604908177522-0408d9f8e0d3?auto=format&fit=crop&w=900&q=80"
+            alt="South Indian Food">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- MENU SECTION -->
+  <section class="section menu" id="menu">
+    <div class="container">
+      <h2 class="section-title">Our Menu</h2>
+      <p class="section-subtitle">Choose your favorite dosa, idli & meals.</p>
+
+      <div class="menu-filter">
+        <button class="filter-btn active" data-category="all">All</button>
+        <button class="filter-btn" data-category="dosa">Dosa</button>
+        <button class="filter-btn" data-category="idli">Idli</button>
+        <button class="filter-btn" data-category="meals">Meals</button>
+        <button class="filter-btn" data-category="drinks">Drinks</button>
+      </div>
+
+      <div class="menu-grid" id="menuGrid">
+
+        <div class="menu-card dosa">
+          <h3>Masala Dosa</h3>
+          <p>Crispy dosa stuffed with spicy potato masala.</p>
+          <span>₹120</span>
+        </div>
+
+        <div class="menu-card dosa">
+          <h3>Plain Dosa</h3>
+          <p>Classic crispy dosa served with sambhar & chutney.</p>
+          <span>₹90</span>
+        </div>
+
+        <div class="menu-card idli">
+          <h3>Idli Sambhar</h3>
+          <p>Soft idlis with hot sambhar and coconut chutney.</p>
+          <span>₹70</span>
+        </div>
+
+        <div class="menu-card idli">
+          <h3>Medu Vada</h3>
+          <p>Crispy vada with sambhar & chutney.</p>
+          <span>₹80</span>
+        </div>
+
+        <div class="menu-card meals">
+          <h3>South Indian Thali</h3>
+          <p>Rice, sambhar, rasam, curd, papad & veggies.</p>
+          <span>₹180</span>
+        </div>
+
+        <div class="menu-card meals">
+          <h3>Lemon Rice</h3>
+          <p>Traditional lemon rice with peanuts & curry leaves.</p>
+          <span>₹110</span>
+        </div>
+
+        <div class="menu-card drinks">
+          <h3>Filter Coffee</h3>
+          <p>Strong authentic South Indian filter coffee.</p>
+          <span>₹50</span>
+        </div>
+
+        <div class="menu-card drinks">
+          <h3>Butter Milk</h3>
+          <p>Refreshing masala chaas.</p>
+          <span>₹40</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- SPECIALS SECTION -->
+  <section class="section specials" id="specials">
+    <div class="container">
+      <h2 class="section-title">Today's Specials</h2>
+      <p class="section-subtitle">Freshly prepared & chef recommended.</p>
+
+      <div class="specials-grid">
+        <div class="special-card">
+          <h3>Cheese Dosa</h3>
+          <p>Extra cheesy dosa with spicy chutney.</p>
+          <span>₹160</span>
+        </div>
+
+        <div class="special-card">
+          <h3>Paneer Uttapam</h3>
+          <p>Soft uttapam topped with paneer & veggies.</p>
+          <span>₹150</span>
+        </div>
+
+        <div class="special-card">
+          <h3>Mini Idli</h3>
+          <p>Mini idlis soaked in sambhar. Super tasty!</p>
+          <span>₹100</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY SECTION -->
+  <section class="section gallery" id="gallery">
+    <div class="container">
+      <h2 class="section-title">Food Gallery</h2>
+      <p class="section-subtitle">Our delicious food moments.</p>
+
+      <div class="gallery-grid">
+        <img src="https://images.unsplash.com/photo-1626509653291-61f04c918a6f?auto=format&fit=crop&w=800&q=80"
+          alt="Dosa">
+        <img src="https://images.unsplash.com/photo-1627308595229-7830a5c91f9f?auto=format&fit=crop&w=800&q=80"
+          alt="Idli">
+        <img src="https://images.unsplash.com/photo-1600628422019-62d8eac78e8f?auto=format&fit=crop&w=800&q=80"
+          alt="Uttapam">
+        <img src="https://images.unsplash.com/photo-1598515214211-89d3c73ae83b?auto=format&fit=crop&w=800&q=80"
+          alt="Thali">
+        <img src="https://images.unsplash.com/photo-1604908177217-7f98b5eb2d5f?auto=format&fit=crop&w=800&q=80"
+          alt="Sambhar">
+        <img src="https://images.unsplash.com/photo-1548946526-f69e2424cf45?auto=format&fit=crop&w=800&q=80"
+          alt="Coffee">
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS SECTION -->
+  <section class="section reviews" id="reviews">
+    <div class="container">
+      <h2 class="section-title">Customer Reviews</h2>
+      <p class="section-subtitle">People love our taste & service.</p>
+
+      <div class="review-grid">
+        <div class="review-card">
+          <h3>⭐⭐⭐⭐⭐</h3>
+          <p>"Best masala dosa in town! Sambhar is super tasty."</p>
+          <span>- Rahul</span>
+        </div>
+
+        <div class="review-card">
+          <h3>⭐⭐⭐⭐⭐</h3>
+          <p>"Very clean place and quick service. Coffee is awesome."</p>
+          <span>- Priya</span>
+        </div>
+
+        <div class="review-card">
+          <h3>⭐⭐⭐⭐⭐</h3>
+          <p>"Affordable price and authentic South Indian flavor."</p>
+          <span>- Karthik</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT SECTION -->
+  <section class="section contact" id="contact">
+    <div class="container">
+      <h2 class="section-title">Contact Us</h2>
+      <p class="section-subtitle">We are ready to serve you today!</p>
+
+      <div class="contact-grid">
+        <div class="contact-info">
+          <h3>Restaurant Details</h3>
+          <p><b>📍 Address:</b> Near Main Road, City Center</p>
+          <p><b>📞 Phone:</b> +91 99999 99999</p>
+          <p><b>🕒 Timing:</b> 8 AM - 10 PM</p>
+          <p><b>📧 Email:</b> madrastiffin@gmail.com</p>
+
+          <a class="btn" target="_blank"
+            href="https://www.google.com/maps/search/?api=1&query=south+indian+restaurant">
+            📍 View on Google Map
+          </a>
+        </div>
+
+        <form class="contact-form" id="contactForm">
+          <input type="text" id="custName" placeholder="Your Name" required />
+          <input type="email" id="custEmail" placeholder="Your Email" required />
+          <input type="text" id="custPhone" placeholder="Your Phone" required />
+          <textarea id="custMsg" placeholder="Your Message" required></textarea>
+          <button class="btn" type="submit">Send Message</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="footer">
+    <p>© 2026 Madras Tiffin House | All Rights Reserved</p>
+  </footer>
+
+  <!-- WHATSAPP FLOATING BUTTON -->
+  <a class="whatsapp-btn"
+    href="https://wa.me/919999999999?text=Hello%20Madras%20Tiffin%20House,%20I%20want%20to%20order%20food!"
+    target="_blank">
+    💬 Order
+  </a>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
